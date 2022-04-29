@@ -1,0 +1,1 @@
+// we should start dealing with the dom, broser and focus on dom manipulation using inheritance

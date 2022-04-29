@@ -1,4 +1,11 @@
-//create a funciton for treen 
+/*
+* Functional instatiation
+* Best for in and out values
+* 
+* 
+*/
+
+//create a funciton for tren 
 var tren = function(){
   var instancia = {}
   //crear un pointer a la cabeza 
@@ -32,7 +39,6 @@ var tren = function(){
     return caja
   }
 
-
 //contains
   instancia.contains = function(data) {
     var currentWagon = instancia.head
@@ -48,7 +54,6 @@ var tren = function(){
     //despues de la loop regresa falso
     return false
   }
-
   return instancia
 }
 
@@ -61,5 +66,12 @@ var wagon = function(value){
   // value prop
   // hook to the next cart = null
 }
+
+var nuestroTren = tren()
+nuestroTren.agregar("miguel")
+nuestroTren.agregar("Rodolfo")
+nuestroTren.agregar("francisco")
+
+console.log(nuestroTren)
 
 module.exports = tren

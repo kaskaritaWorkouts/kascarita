@@ -1,0 +1,3 @@
+/*
+  create the reudce method only using vanilla JS
+*/
